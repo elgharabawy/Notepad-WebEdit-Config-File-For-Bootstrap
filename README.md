@@ -9,6 +9,30 @@ For example, writing *h1*, then pressing *Alt+Enter*, would result in:
 <h1></h1>
 ```
 
+If you would like to create an HTML file with Bootstrap resources loaded. All you need to do is type *bsHead* followed by *Alt+Enter*, this will result in:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Page meta description goes here">
+	<meta name="keywords" content="keywords, goes, here">
+	<meta name="author" content="Mohamed Elgharabawy">
+
+	<title>Page Title</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+</body>
+</html>
+```
+
 Another example for a Bootstrap commonly used task is creating rows and columns. Using this configuration file, if you wrote *bsRowCol12lg*, then pressed *Alt+Enter*, you would get the following:
 
 ```html
@@ -19,7 +43,9 @@ Another example for a Bootstrap commonly used task is creating rows and columns.
 </div>
 ```
 
-It is really as easy as that! For a full list of the tags, kindly refer to the configuration file itself.
+**It is really as easy as that and it saves a lot of time!**
+
+For a full list of the tags, kindly refer to the configuration file itself.
 
 I have been using Bootstrap a lot recently and I needed something that would make creating all the usual website components faster. This configuration file has tags for forms, columns, navbars, .. etc.
 
