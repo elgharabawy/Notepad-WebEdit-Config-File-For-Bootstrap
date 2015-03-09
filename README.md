@@ -1,4 +1,4 @@
-# Notepad++ WebEdit-Config-File-For-Bootstrap
+# Notepad++ WebEdit Config File For Bootstrap
 A set of the most commonly used Bootstrap components and CSS combinations with hotkey shortcuts.
 
 By default, WebEdit contains a Config file that has some tags. These are replaced by some snippets when you use the replace key. The replace key is set to Alt+Enter by default.
